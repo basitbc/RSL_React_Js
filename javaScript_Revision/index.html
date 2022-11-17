@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Event Calling -->
+    <h2 style="color: green;">Calling Events here</h2>
+    <button onclick="handleEvent(event)">Call OnClick</button>
+    <h1 onmouseover="handleMouseOver(event)" onmouseout="handleMouseOut(this)">Call onHover</h1>
+    <div><br><br><br></div>
+
+
+
+    <!-- Dom Manupilation -->
+    <h2><i style="color: green;">DOM manupilation starts here</i> </h2>
+    <form>
+        <input id="name" type="text" placeholder="Enter Name here"><br>
+        <input id="rollno" type="number" placeholder="Enter RollNo here"><br>
+        <input id="address" type="text" placeholder="Enter Address here"><br>
+
+        <button onclick="handleStudent(event)">OnClick</button>
+        <button id="btn">Add Event Listener</button>
+
+    </form>
+    <div id="target"></div>
+</body>
+<script src="./javaScript.js"></script>
+
+</html>

@@ -1,0 +1,36 @@
+#root{
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.container{
+    background-color: antiquewhite;
+    width:100vw;
+    height: 40vh;
+    border: 2px solid black;
+    display: block;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#name, #rollNo, #address, #phonenumber{
+    height: 10px;
+    width: 180px;
+    padding: 10px;
+}
+.student{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.play-hover{
+    background-color: brown;
+}
+

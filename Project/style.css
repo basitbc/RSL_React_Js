@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&family=Mouse+Memoirs&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.header {
+    width: 500px;
+    height: 70px;
+    background-color: rgb(255, 81, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    color: rgb(229, 255, 0);
+    font-stretch: expanded;
+}
+
+.input-container {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 7px;
+}
+
+.addtaskinput {
+    height: 40px;
+    width: 90%;
+    margin: 0px;
+    color: white;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    background-color: rgb(125, 61, 61);
+    border-bottom-left-radius: 10px;
+}
+
+.btn_container {
+    height: 100%;
+
+
+}
+
+/* Style buttons */
+.btnn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.to-do-container {
+    height: 800px;
+    width: 500px;
+    border-radius: 20px;
+}
